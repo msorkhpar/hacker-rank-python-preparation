@@ -8,7 +8,7 @@ class DivisionOutputTest(unittest.TestCase):
 
     param_list = [
         ("3", "5", "0\n0.6"),
-        ("4", "3", "1\n1.3333333333")
+        ("4", "3", "1\n1.333333333")
     ]
 
     def test_evaluate_console_output(self):
