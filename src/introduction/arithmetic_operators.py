@@ -1,4 +1,4 @@
-if __name__ == '__main__':
+def run():
     a = int(input())
     b = int(input())
 
@@ -8,3 +8,7 @@ if __name__ == '__main__':
     print((a - b))
     # Third line should print product of the two numbers
     print((a * b))
+
+
+if __name__ == '__main__':
+    run()
