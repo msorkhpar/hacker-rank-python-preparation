@@ -4,7 +4,7 @@ from unittest.mock import patch
 from src.regex_and_parsing import email_validator
 
 
-class PhoneNumberValidatorOutputTest(unittest.TestCase):
+class EmailValidatorOutputTest(unittest.TestCase):
 
     @patch('builtins.input', side_effect=["2", "DEXTER <dexter@hotmail.com>", "VIRUS <virus!@variable.:p>"])
     @patch('sys.stdout', new_callable=io.StringIO)
