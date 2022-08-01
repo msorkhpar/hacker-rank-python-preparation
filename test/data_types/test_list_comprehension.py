@@ -4,7 +4,7 @@ from unittest.mock import patch
 from src.data_types import list_comprehension
 
 
-class EmailValidatorOutputTest(unittest.TestCase):
+class ListComprehensionOutputTest(unittest.TestCase):
 
     @patch('builtins.input', side_effect=["1", "1", "1", "2"])
     @patch('sys.stdout', new_callable=io.StringIO)
